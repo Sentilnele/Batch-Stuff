@@ -18,3 +18,8 @@ Whitelist system.
 actual information to engage into it, so there's no way in hell im putting it here.
 
 [Code to obtain key is the same as J.O.H.N V1.4 (3301)]
+
+
+
+
+3- Animation V1.0 | Coming soon...
