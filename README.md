@@ -4,7 +4,8 @@ yeah just projects i made in batch nothing much.
 
 Discord: Wild West Doggo#2595
 
-1- J.O.H.N V1.4 First off, john is a scareware, not actual malware, it's a small idea i got one day, and i turned it into reality.
+1- J.O.H.N V1.4 | First off, john is a scareware, not actual malware/virus/RAT, it's a small idea i got one day, and i turned it into reality.
+
 Includes fake tracker.
 
 Removal animation.
@@ -24,4 +25,10 @@ actual information to engage into it, so there's no way in hell im putting it he
 
 
 
-3- Animation V1.0 | Coming soon...
+3- Animation V1.0 | Is here!
+
+Features:
+
+Stickman that you can make say things
+
+And wave animation, more to come!.
