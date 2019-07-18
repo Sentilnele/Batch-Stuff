@@ -2,7 +2,7 @@
 yeah just projects i made in batch nothing much.
 :D
 
-Discord is Johnned is cool B)#2595
+Discord: Johnny boy#2595
 
 1- J.O.H.N V1.4 First off, john is a scareware, not actual malware, it's a small idea i got one day, and i turned it into reality.
 Includes fake tracker.
