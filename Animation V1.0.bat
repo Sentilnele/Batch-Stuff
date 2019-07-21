@@ -1,4 +1,6 @@
 @echo off
+color 0a
+title Animation V1.0
 :Zelf
 cls
 echo -Stickman
