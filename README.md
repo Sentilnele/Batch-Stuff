@@ -2,7 +2,7 @@
 yeah just projects i made in batch nothing much.
 :D
 
-Discord: Wild West Doggo#2595
+Discord: Johnnio#2595
 
 1- J.O.H.N V1.4 | First off, john is a scareware, not actual malware/virus/RAT, it's a small idea i got one day, and i turned it into reality.
 
@@ -32,3 +32,6 @@ Features:
 Stickman that you can make say things
 
 And wave animation, more to come!.
+
+
+I might actually be not posting anything for a couple of weeks, maybe even months, since of schoolwork and other such things, so for now, bye.
