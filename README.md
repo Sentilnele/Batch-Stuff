@@ -25,13 +25,12 @@ actual information to engage into it, so there's no way in hell im putting it he
 
 
 
-3- Animation V1.0 | Is here!
+3- Animation V1.0 |
 
 Features:
 
 Stickman that you can make say things
 
-And wave animation, more to come!.
+And wave animation, more to come!
 
-
-I might actually be not posting anything for a couple of weeks, maybe even months, since of schoolwork and other such things, so for now, bye.
+My laptop is a bit broken and they're fixing it right now so uhh, ill be updating Animation V1.0 soon.
