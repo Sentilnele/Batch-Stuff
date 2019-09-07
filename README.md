@@ -2,7 +2,7 @@
 yeah just projects i made in batch nothing much.
 :D
 
-Discord: Johnnio#2595
+Discord: J.O.H.N#2595
 
 1- J.O.H.N V1.4 | First off, john is a scareware, not actual malware/virus/RAT, it's a small idea i got one day, and i turned it into reality.
 
