@@ -33,4 +33,14 @@ Stickman that you can make say things
 
 And wave animation, more to come!
 
-My laptop is a bit broken and they're fixing it right now so uhh, ill be updating Animation V1.0 soon.
+I'm back, instead of updating animation i made a new fake virus, i introduce:
+
+Crypt0 l0ck3r | A more animated version of J.O.H.N
+
+includes lock with skull (That fades away)
+
+Another removal, which i renamed dismantle.
+
+And some uhh cool things n stuff, yeah sorry, i know i kinda made this as a excuse to not update animation, but i swear i will!
+
+i wont leave this hanging like half life 3's release.
