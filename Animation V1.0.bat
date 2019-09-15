@@ -1,9 +1,9 @@
 @echo off
-color 0a
-title Animation V1.0
+color C
 :Zelf
 cls
 echo -Stickman
+echo -Dragon
 echo -Others coming soon...
 set /p zElf=:
 
@@ -12,7 +12,13 @@ goto Stickman
 )
 if %zElf%==stickman (
 goto Stickman
-) else echo Error:1
+)
+if %zElf%==Dragon (
+goto Dragon
+)
+if %zElf%==dragon (
+goto Dragon
+) else goto error1
 
 :Stickman
 cls
@@ -31,6 +37,7 @@ goto Speak
 echo
 echo
 :Wave
+color 0a
 ping localhost -n 1.7 >nul
 cls
 echo.
@@ -6062,3 +6069,730 @@ echo                        /d   `d/
 echo                        ..    -d-                 
 echo.
 pause >nul
+
+
+
+
+
+
+:error1
+echo Error:1 Invalid Command.
+pause >nul
+exit
+
+
+
+
+
+
+
+
+
+
+:Dragon
+color 1
+cls
+echo What do you want the dragon to do?
+echo 1-Flame em (short)
+echo 2-Flash it's eye (short aswell lol)
+echo More coming soon...
+set /p Efelecar=:
+if %Efelecar%==1 (
+goto Flame
+)
+if %Efelecar%==2 (
+goto Eye
+) else goto error1
+
+
+
+:Flame
+cls
+echo I recommend using fullscreen for better effect and efficiency.
+echo starting in 5 seconds...
+ping localhost -n 5 >nul
+cls
+echo.                                                                                       
+echo                                       .mMm.                       :/`                                                            
+echo                                      `hMMM:                       :dd/o/                                                         
+echo                                      `hMMN.                       `:mNMm.:s.                                                     
+echo                                       .mMM:             ``  +/` `/dNMMMMdho`                                                     
+echo                                        sMMo           -//hhomMdshMMMMMMMN-                                                       
+echo                                        -NMh`          -dNNMMMMMMMMMMMMMMMm:                                                      
+echo                                         yMm-        /+sdMMMMMMMMMMMMMMMMMMm-                                                     
+echo                                         oMM/       .yNMMMMMMMMMMMMMMMMMMMMMN+`                                                   
+echo                                         /MM/      -hMMMMMMMMMMMMMMMMMMMMMMMMMh.                                                  
+echo                                         :MM+      -+NMMMMMMdhmMMMMMMMMMMMMMMMMN:                                                 
+echo                                         hMN/     `omMMMMMMm.`/MMMMyMMMMMNNMMNNm-                                                 
+echo                                        :NMN.      .oMMMMMMd-`-MMMd`dMMMMMMMMh-`                                           
+echo                                        hMMh       /mMMMMMMMy.+MMMo       MMMMMh+.                                        
+echo                                       :MMM:      `sdNMMMMMMM+yMMMs`       MMMNMMMdo/`                                            
+echo                                      .dMMm.        /NMMMMMMMNhN                 NMMd/`                                            
+echo                                      hMMM/  ./yod+dNyNMMMMMMMM-`  `                                      
+echo                                     oMMMN::yNMMMMMMMMMMMMMMMMMd                                         
+echo                                    :NMMMNdNMMMMMMMMMMMMMMMMMMMM:                                     
+echo                                   +NNmMMMMMMMMMMMMMMMMMMMMMMMMMN:                                    
+echo                                 .yMmhmMMNmMMMMMMMMMMMMMMMMMMMMMMo                                
+echo                                `dMmhhhddhhdmNMMMMMMMMMMMMMMMMMMMm                                
+echo                                sMNhhhddhhhhhmMMMMMMMMMMMMMMMMMMMN                            
+echo                               /MMmhdmMMNdhhhmMMMMMMMMMMMMMMMMMMMM: `                               
+echo                               yMMddNMMMNdhdmMMMMMMMMMMMMMMMMMMMMM/                              
+echo                               -hMNMMMmdhhdNMMMNddsyMMMMMMMMMMMMMm.                            
+echo                                 +mNMMNmmddmNMMNy/`+MMMMMMMMMMMMMmyo`                        
+echo                                  `-+ohdmmNNmmMMMNo+MMMMMMMMMMMMMMMN/ `                    
+echo                                       `..odNMMmmy+`/hNMMMMMNNNhdmy:                     
+echo                                           `.:+..     :shooo.-. ``   .`                
+ping localhost 1.5 -n >nul
+cls
+echo.                                                                        
+echo                                       .mMm.                       :/`                                                            
+echo                                      `hMMM:                       :dd/o/                                                         
+echo                                      `hMMN.                       `:mNMm.:s.                                                     
+echo                                       .mMM:             ``  +/` `/dNMMMMdho`                                                     
+echo                                        sMMo           -//hhomMdshMMMMMMMN-                                                       
+echo                                        -NMh`          -dNNMMMMMMMMMMMMMMMm:                                                      
+echo                                         yMm-        /+sdMMMMMMMMMMMMMMMMMMm-                                                     
+echo                                         oMM/       .yNMMMMMMMMMMMMMMMMMMMMMN+`                                                   
+echo                                         /MM/      -hMMMMMMMMMMMMMMMMMMMMMMMMMh.                                                  
+echo                                         :MM+      -+NMMMMMMdhmMMMMMMMMMMMMMMMMN:                                                 
+echo                                         hMN/     `omMMMMMMm.`/MMMMyMMMMMNNMMNNm-                                                 
+echo                                        :NMN.      .oMMMMMMd-`-MMMd`dMMMMMMMMh-`                                          
+echo                                        hMMh       /mMMMMMMMy.+MMMo hMMdNmMMMMMh+.                                        
+echo                                       :MMM:      `sdNMMMMMMM+yMMMs`dMMNNMMMMMNMMMdo/`                                            
+echo                                      .dMMm.        /NMMMMMMMNhNm+mom             NMMd/`                                            
+echo                                      hMMM/  ./yod+dNyNMMMMMMMM-`                                     
+echo                                     oMMMN::yNMMMMMMMMMMMMMMMMMd                                   
+echo                                    :NMMMNdNMMMMMMMMMMMMMMMMMMMM: `                                       
+echo                                   +NNmMMMMMMMMMMMMMMMMMMMMMMMMMN:                                       
+echo                                 .yMmhmMMNmMMMMMMMMMMMMMMMMMMMMMMo `                              
+echo                                `dMmhhhddhhdmNMMMMMMMMMMMMMMMMMMMm                               
+echo                                sMNhhhddhhhhhmMMMMMMMMMMMMMMMMMMMN                                
+echo                               /MMmhdmMMNdhhhmMMMMMMMMMMMMMMMMMMMM: `                          
+echo                               yMMddNMMMNdhdmMMMMMMMMMMMMMMMMMMMMM/                                
+echo                               -hMNMMMmdhhdNMMMNddsyMMMMMMMMMMMMMm.                          
+echo                                 +mNMMNmmddmNMMNy/`+MMMMMMMMMMMMMmyo`                      
+echo                                  `-+ohdmmNNmmMMMNo+MMMMMMMMMMMMMMMN/ `                   
+echo                                       `..odNMMmmy+`/hNMMMMMNNNhdmy:                   
+echo                                           `.:+..     :shooo.-. ``   
+ping localhost -n 1.5 >nul
+cls
+echo.                                                                                   
+echo                                      .mMm.                       :/`                                                            
+echo                                     `hMMM:                       :dd/o/                                                         
+echo                                     `hMMN.                       `:mNMm.:s.                                                     
+echo                                      .mMM:             ``  +/` `/dNMMMMdho`                                                     
+echo                                       sMMo           -//hhomMdshMMMMMMMN-                                                       
+echo                                       -NMh`          -dNNMMMMMMMMMMMMMMMm:                                                      
+echo                                        yMm-        /+sdMMMMMMMMMMMMMMMMMMm-                                                     
+echo                                        oMM/       .yNMMMMMMMMMMMMMMMMMMMMMN+`                                                   
+echo                                        /MM/      -hMMMMMMMMMMMMMMMMMMMMMMMMMh.                                                  
+echo                                        :MM+      -+NMMMMMMdhmMMMMMMMMMMMMMMMMN:                                                 
+echo                                        hMN/     `omMMMMMMm.`/MMMMyMMMMMNNMMNNm-                                                 
+echo                                       :NMN.      .oMMMMMMd-`-MMMd`dMMMMMMMMh-`                                        
+echo                                       hMMh       /mMMMMMMMy.+MMMo hMMdNmMMMMMh+.                                       
+echo                                      :MMM:      `sdNMMMMMMM+yMMMs`dMMNNMMMMMNMMMdo/`                                            
+echo                                     .dMMm.        /NMMMMMMMNhNm+momMMMdMMMMMMmNMMd/`                                            
+echo                                     hMMM/  ./yod+dNyNMMMMMMMM-`  `:MMMshMMMMMMMMNNy.                                            
+echo                                    oMMMN::yNMMMMMMMMMMMMMMMMMd    /MMMd+mMMMMMMMMMMN/                                           
+echo                                   :NMMMNdNMMMMMMMMMMMMMMMMMMMM:                                      
+echo                                  +NNmMMMMMMMMMMMMMMMMMMMMMMMMMN:                                        
+echo                                .yMmhmMMNmMMMMMMMMMMMMMMMMMMMMMMo                              
+echo                               `dMmhhhddhhdmNMMMMMMMMMMMMMMMMMMMm                             
+echo                               sMNhhhddhhhhhmMMMMMMMMMMMMMMMMMMMN :                                
+echo                              /MMmhdmMMNdhhhmMMMMMMMMMMMMMMMMMMMM: `                                 
+echo                              yMMddNMMMNdhdmMMMMMMMMMMMMMMMMMMMMM/                               
+echo                              -hMNMMMmdhhdNMMMNddsyMMMMMMMMMMMMMm.                            
+echo                                +mNMMNmmddmNMMNy/`+MMMMMMMMMMMMMmyo`                      
+echo                                 `-+ohdmmNNmmMMMNo+MMMMMMMMMMMMMMMN/                        
+echo                                      `..odNMMmmy+`/hNMMMMMNNNhdmy:                        
+echo                                          `.:+..     :shooo.-. ``   
+ ping localhost -n 1.5 >nul
+cls
+echo.                                                                                     
+echo                                       .mMm.                       :/`                                                            
+echo                                      `hMMM:                       :dd/o/                                                         
+echo                                      `hMMN.                       `:mNMm.:s.                                                     
+echo                                       .mMM:             ``  +/` `/dNMMMMdho`                                                     
+echo                                        sMMo           -//hhomMdshMMMMMMMN-                                                       
+echo                                        -NMh`          -dNNMMMMMMMMMMMMMMMm:                                                      
+echo                                         yMm-        /+sdMMMMMMMMMMMMMMMMMMm-                                                     
+echo                                         oMM/       .yNMMMMMMMMMMMMMMMMMMMMMN+`                                                   
+echo                                         /MM/      -hMMMMMMMMMMMMMMMMMMMMMMMMMh.                                                  
+echo                                         :MM+      -+NMMMMMMdhmMMMMMMMMMMMMMMMMN:                                                 
+echo                                         hMN/     `omMMMMMMm.`/MMMMyMMMMMNNMMNNm-                                                 
+echo                                        :NMN.      .oMMMMMMd-`-MMMd`dMMMMMMMMh-`                                         
+echo                                        hMMh       /mMMMMMMMy.+MMMo hMMdNmMMMMMh+.                                   
+echo                                       :MMM:      `sdNMMMMMMM+yMMMs`dMMNNMMMMMNMMMdo/`                                            
+echo                                      .dMMm.        /NMMMMMMMNhNm+momMMMdMMMMMMmNMMd/`                                            
+echo                                      hMMM/  ./yod+dNyNMMMMMMMM-`  `:MMMshMMMMMMMMNNy.                                            
+echo                                     oMMMN::yNMMMMMMMMMMMMMMMMMd    /MMMd+mMMMMMMMMMMN/                                           
+echo                                    :NMMMNdNMMMMMMMMMMMMMMMMMMMM:   :-+MMohMMMmsoydMMMMy/-`                                       
+echo                                   +NNmMMMMMMMMMMMMMMMMMMMMMMMMMN:    -MMhMMMd/::::sMMMMNy-                                       
+echo                                 .yMmhmMMNmMMMMMMMMMMMMMMMMMMMMMMo `/::MMMMMMy/:--:/MMMMN+` +hh/                                  
+echo                                `dMmhhhddhhdmNMMMMMMMMMMMMMMMMMMMm -Ms /dMMMMMs/::/hMMMMMMm: ```                                  
+echo                                sMNhhhddhhhhhmMMMMMMMMMMMMMMMMMMMN :h/  .NMMMMMNdmNMMMMMMMMm:`  .-                                
+echo                               /MMmhdmMMNdhhhmMMMMMMMMMMMMMMMMMMMM: `                              
+echo                               yMMddNMMMNdhdmMMMMMMMMMMMMMMMMMMMMM/                             
+echo                               -hMNMMMmdhhdNMMMNddsyMMMMMMMMMMMMMm.                               
+echo                                 +mNMMNmmddmNMMNy/`+MMMMMMMMMMMMMmyo`                         
+echo                                  `-+ohdmmNNmmMMMNo+MMMMMMMMMMMMMMMN/                    
+echo                                       `..odNMMmmy+`/hNMMMMMNNNhdmy:                    
+echo                                           `.:+..     :shooo.-. ``
+ping localhost -n 1.5 >nul
+cls
+echo.                                                                                   
+echo                                       .mMm.                       :/`                                                            
+echo                                      `hMMM:                       :dd/o/                                                         
+echo                                      `hMMN.                       `:mNMm.:s.                                                     
+echo                                       .mMM:             ``  +/` `/dNMMMMdho`                                                     
+echo                                        sMMo           -//hhomMdshMMMMMMMN-                                                       
+echo                                        -NMh`          -dNNMMMMMMMMMMMMMMMm:                                                      
+echo                                         yMm-        /+sdMMMMMMMMMMMMMMMMMMm-                                                     
+echo                                         oMM/       .yNMMMMMMMMMMMMMMMMMMMMMN+`                                                   
+echo                                         /MM/      -hMMMMMMMMMMMMMMMMMMMMMMMMMh.                                                  
+echo                                         :MM+      -+NMMMMMMdhmMMMMMMMMMMMMMMMMN:                                                 
+echo                                         hMN/     `omMMMMMMm.`/MMMMyMMMMMNNMMNNm-                                                 
+echo                                        :NMN.      .oMMMMMMd-`-MMMd`dMMMMMMMMh-`                                        
+echo                                        hMMh       /mMMMMMMMy.+MMMo hMMdNmMMMMMh+.                                    
+echo                                       :MMM:      `sdNMMMMMMM+yMMMs`dMMNNMMMMMNMMMdo/`                                            
+echo                                      .dMMm.        /NMMMMMMMNhNm+momMMMdMMMMMMmNMMd/`                                            
+echo                                      hMMM/  ./yod+dNyNMMMMMMMM-`  `:MMMshMMMMMMMMNNy.                                            
+echo                                     oMMMN::yNMMMMMMMMMMMMMMMMMd    /MMMd+mMMMMMMMMMMN/                                           
+echo                                    :NMMMNdNMMMMMMMMMMMMMMMMMMMM:   :-+MMohMMMmsoydMMMMy/-`                                       
+echo                                   +NNmMMMMMMMMMMMMMMMMMMMMMMMMMN:    -MMhMMMd/::::sMMMMNy-                                       
+echo                                 .yMmhmMMNmMMMMMMMMMMMMMMMMMMMMMMo `/::MMMMMMy/:--:/MMMMN+` +hh/                                  
+echo                                `dMmhhhddhhdmNMMMMMMMMMMMMMMMMMMMm -Ms /dMMMMMs/::/hMMMMMMm: ```                                  
+echo                                sMNhhhddhhhhhmMMMMMMMMMMMMMMMMMMMN :h/  .NMMMMMNdmNMMMMMMMMm:`  .-                                
+echo                               /MMmhdmMMNdhhhmMMMMMMMMMMMMMMMMMMMM: `   .NMMMMMMMMMMmNMMMMMMNdyyd:                                
+echo                               yMMddNMMMNdhdmMMMMMMMMMMMMMMMMMMMMM/     -MMMMMMMMMMMmNMMMMMMMMMM+                                 
+echo                               -hMNMMMmdhhdNMMMNddsyMMMMMMMMMMMMMm.   .`.NMMMMMMMMMMMMMMMMMMMMMMNy`                               
+echo                                 +mNMMNmmddmNMMNy/`+MMMMMMMMMMMMMmyo` ohsNMMMMMMMMMMMMMMMMMMMMMMMM+  --                           
+echo                                  `-+ohdmmNNmmMMMNo+MMMMMMMMMMMMMMMN/ `:sdmmmmmNNMMMMMMMMMMMMMMMMMN+yNh`                          
+echo                                       `..odNMMmmy+`/hNMMMMMNNNhdmy: -                      
+echo                                           `.:+..     :shooo.-. ``  
+ping localhost -n 1.5 >nul
+cls
+echo.                                                     
+echo                                       .mMm.                       :/`                                                            
+echo                                      `hMMM:                       :dd/o/                                                         
+echo                                      `hMMN.                       `:mNMm.:s.                                                     
+echo                                       .mMM:             ``  +/` `/dNMMMMdho`                                                     
+echo                                        sMMo           -//hhomMdshMMMMMMMN-                                                       
+echo                                        -NMh`          -dNNMMMMMMMMMMMMMMMm:                                                      
+echo                                         yMm-        /+sdMMMMMMMMMMMMMMMMMMm-                                                     
+echo                                         oMM/       .yNMMMMMMMMMMMMMMMMMMMMMN+`                                                   
+echo                                         /MM/      -hMMMMMMMMMMMMMMMMMMMMMMMMMh.                                                  
+echo                                         :MM+      -+NMMMMMMdhmMMMMMMMMMMMMMMMMN:                                                 
+echo                                         hMN/     `omMMMMMMm.`/MMMMyMMMMMNNMMNNm-                                                 
+echo                                        :NMN.      .oMMMMMMd-`-MMMd`dMMMMMMMMh-`                                        
+echo                                        hMMh       /mMMMMMMMy.+MMMo hMMdNmMMMMMh+.                                       
+echo                                       :MMM:      `sdNMMMMMMM+yMMMs`dMMNNMMMMMNMMMdo/`                                            
+echo                                      .dMMm.        /NMMMMMMMNhNm+momMMMdMMMMMMmNMMd/`                                            
+echo                                      hMMM/  ./yod+dNyNMMMMMMMM-`  `:MMMshMMMMMMMMNNy.                                            
+echo                                     oMMMN::yNMMMMMMMMMMMMMMMMMd    /MMMd+mMMMMMMMMMMN/                                           
+echo                                    :NMMMNdNMMMMMMMMMMMMMMMMMMMM:   :-+MMohMMMmsoydMMMMy/-`                                       
+echo                                   +NNmMMMMMMMMMMMMMMMMMMMMMMMMMN:    -MMhMMMd/::::sMMMMNy-                                       
+echo                                 .yMmhmMMNmMMMMMMMMMMMMMMMMMMMMMMo `/::MMMMMMy/:--:/MMMMN+` +hh/                                  
+echo                                `dMmhhhddhhdmNMMMMMMMMMMMMMMMMMMMm -Ms /dMMMMMs/::/hMMMMMMm: ```                                  
+echo                                sMNhhhddhhhhhmMMMMMMMMMMMMMMMMMMMN :h/  .NMMMMMNdmNMMMMMMMMm:`  .-                                
+echo                               /MMmhdmMMNdhhhmMMMMMMMMMMMMMMMMMMMM: `   .NMMMMMMMMMMmNMMMMMMNdyyd:                                
+echo                               yMMddNMMMNdhdmMMMMMMMMMMMMMMMMMMMMM/     -MMMMMMMMMMMmNMMMMMMMMMM+                                 
+echo                               -hMNMMMmdhhdNMMMNddsyMMMMMMMMMMMMMm.   .`.NMMMMMMMMMMMMMMMMMMMMMMNy`                               
+echo                                 +mNMMNmmddmNMMNy/`+MMMMMMMMMMMMMmyo` ohsNMMMMMMMMMMMMMMMMMMMMMMMM+  --                           
+echo                                  `-+ohdmmNNmmMMMNo+MMMMMMMMMMMMMMMN/ `:sdmmmmmNNMMMMMMMMMMMMMMMMMN+yNh`                          
+echo                                       `..odNMMmmy+`/hNMMMMMNNNhdmy: -///+-....--/yNMMmMMmmMMMMMMMNdhy:                           
+echo                                           `.:+..     :shooo.-. ``   ./yys.        -++.+d:sNd+:odNh`      
+ping localhost -n 1.5 >nul
+cls
+echo.                                                                                    
+echo                                       .mMm.                       :/`                                                            
+echo                                      `hMMM:                       :dd/o/                                                         
+echo                                      `hMMN.                       `:mNMm.:s.                                                     
+echo                                       .mMM:             ``  +/` `/dNMMMMdho`                                                     
+echo                                        sMMo           -//hhomMdshMMMMMMMN-                                                       
+echo                                        -NMh`          -dNNMMMMMMMMMMMMMMMm:                                                      
+echo                                         yMm-        /+sdMMMMMMMMMMMMMMMMMMm-                                                     
+echo                                         oMM/       .yNMMMMMMMMMMMMMMMMMMMMMN+`                                                   
+echo                                         /MM/      -hMMMMMMMMMMMMMMMMMMMMMMMMMh.                                                  
+echo                                         :MM+      -+NMMMMMMdhmMMMMMMMMMMMMMMMMN:                                                 
+echo                                         hMN/     `omMMMMMMm.`/MMMMyMMMMMNNMMNNm-                                                 
+echo                                        :NMN.      .oMMMMMMd-`-MMMd`dMMMMMMMMh-`                                          
+echo                                        hMMh       /mMMMMMMMy.+MMMo hMMdNmMMMMMh+.                                         
+echo                                       :MMM:      `sdNMMMMMMM+yMMMs`dMMNNMMM  NMMMdo/`                                            
+echo                                      .dMMm.        /NMMMMMMMNhNm+    MMMdMMMMMM  MMd/`                                            
+echo                                      hMMM/  ./yod+dNyNMMMMMMMM-`  `   MMMMMMMNNy.                                            
+echo                                     oMMMN::yNMMMMMMMMMMMMMMMMMd       MMMMMMMMN/                                           
+echo                                    :NMMMNdNMMMMMMMMMMMMMMMMMMMM:     ohMMMmsoydMM                                 
+echo                                   +NNmMMMMMMMMMMMMMMMMMMMMMMMMMN:    MMMd/::::sMMMMNy-                                       
+echo                                 .yMmhmMMNmMMMMMMMMMMMMMMMMMMMMMMo    MMMy/:--:/MMM                              
+echo                                `dMmhhhddhhdmNMMMMMMMMMMMMMMMMMMMm      MMs/::/hMMMM                               
+echo                                sMNhhhddhhhhhmMMMMMMMMMMMMMMMMMMMN       MNdmNMMMMMMM                              
+echo                               /MMmhdmMMNdhhhmMMMMMMMMMMMMMMMMMMMM:        MMMMmNMM                             
+echo                               yMMddNMMMNdhdmMMMMMMMMMMMMMMMMMMMMM/          MMMMMMmNMM                              
+echo                               -hMNMMMmdhhdNMMMNddsyMMMMMMMMMMMMMm.   .        MMMMMMMMM                             
+echo                                 +mNMMNmmddmNMMNy/`+MMMMMMMMMMMMMmyo`        MMMMMMMMMM                        
+echo                                  `-+ohdmmNNmmMMMNo+MMMMMMMMMMMMMMMN/ `    //.           .\\      
+echo                                       `..odNMMmmy+`/hNMMMMMNNNhdmy:             /./             
+echo                                           `.:+..     :shooo.-. ``   .     
+ping localhost -n 1.5 >nul
+cls
+echo.                                                                                    
+echo                                       .mMm.                       :/`                                                            
+echo                                      `hMMM:                       :dd/o/                                                         
+echo                                      `hMMN.                       `:mNMm.:s.                                                     
+echo                                       .mMM:             ``  +/` `/dNMMMMdho`                                                     
+echo                                        sMMo           -//hhomMdshMMMMMMMN-                                                       
+echo                                        -NMh`          -dNNMMMMMMMMMMMMMMMm:                                                      
+echo                                         yMm-        /+sdMMMMMMMMMMMMMMMMMMm-                                                     
+echo                                         oMM/       .yNMMMMMMMMMMMMMMMMMMMMMN+`                                                   
+echo                                         /MM/      -hMMMMMMMMMMMMMMMMMMMMMMMMMh.                                                  
+echo                                         :MM+      -+NMMMMMMdhmMMMMMMMMMMMMMMMMN:                                                 
+echo                                         hMN/     `omMMMMMMm.`/MMMMyMMMMMNNMMNNm-                                                 
+echo                                        :NMN.      .oMMMMMMd-`-MMMd`dMMMMMMMMh-`                                          
+echo                                        hMMh       /mMMMMMMMy.+MMMo hMMdNmMMMMMh+.                                        
+echo                                       :MMM:      `sdNMMMMMMM+yMMMs`dMMNNMMM  NMMMdo/`                                            
+echo                                      .dMMm.        /NMMMMMMMNhNm+    MMMdMMMMMM  MMd/`                                            
+echo                                      hMMM/  ./yod+dNyNMMMMMMMM-`  `   MMMMMMMNNy.                                            
+echo                                     oMMMN::yNMMMMMMMMMMMMMMMMMd       MMMMMMMMN/                                           
+echo                                    :NMMMNdNMMMMMMMMMMMMMMMMMMMM:     ohMMMmsoydMM                                 
+echo                                   +NNmMMMMMMMMMMMMMMMMMMMMMMMMMN:    MMMd/::::sMMMMNy-                                       
+echo                                 .yMmhmMMNmMMMMMMMMMMMMMMMMMMMMMMo    MMMy/:--:/MMM                              
+echo                                `dMmhhhddhhdmNMMMMMMMMMMMMMMMMMMMm      MMs/::/hMMMM                               
+echo                                sMNhhhddhhhhhmMMMMMMMMMMMMMMMMMMMN       MNdmNMMMMMMM                              
+echo                               /MMmhdmMMNdhhhmMMMMMMMMMMMMMMMMMMMM:        MMMMmNMM                             
+echo                               yMMddNMMMNdhdmMMMMMMMMMMMMMMMMMMMMM/          MMMMMMmNMM                              
+echo                               -hMNMMMmdhhdNMMMNddsyMMMMMMMMMMMMMm.   .             \\.            
+echo                                 +mNMMNmmddmNMMNy/`+MMMMMMMMMMMMMmyo`       //.                  
+echo                                  `-+ohdmmNNmmMMMNo+MMMMMMMMMMMMMMMN/            .    
+echo                                       `..odNMMmmy+`/hNMMMMMNNNhdmy:
+echo                                           `.:+..     :shooo.-. ``   .
+ping localhost -n 1.5 >nul
+cls
+echo.                                                                                    
+echo                                       .mMm.                       :/`                                                            
+echo                                      `hMMM:                       :dd/o/                                                         
+echo                                      `hMMN.                       `:mNMm.:s.                                                     
+echo                                       .mMM:             ``  +/` `/dNMMMMdho`                                                     
+echo                                        sMMo           -//hhomMdshMMMMMMMN-                                                       
+echo                                        -NMh`          -dNNMMMMMMMMMMMMMMMm:                                                      
+echo                                         yMm-        /+sdMMMMMMMMMMMMMMMMMMm-                                                     
+echo                                         oMM/       .yNMMMMMMMMMMMMMMMMMMMMMN+`                                                   
+echo                                         /MM/      -hMMMMMMMMMMMMMMMMMMMMMMMMMh.                                                  
+echo                                         :MM+      -+NMMMMMMdhmMMMMMMMMMMMMMMMMN:                                                 
+echo                                         hMN/     `omMMMMMMm.`/MMMMyMMMMMNNMMNNm-                                                 
+echo                                        :NMN.      .oMMMMMMd-`-MMMd`dMMMMMMMMh-`                                        
+echo                                        hMMh       /mMMMMMMMy.+MMMo hMMdNmMMMMMh+.                                      
+echo                                       :MMM:      `sdNMMMMMMM+yMMMs`dMMNNMMM  NMMMdo/`                                            
+echo                                      .dMMm.        /NMMMMMMMNhNm+    MMMdMMMMMM  MMd/`                                            
+echo                                      hMMM/  ./yod+dNyNMMMMMMMM-`  `   MMMMMMMNNy.                                            
+echo                                     oMMMN::yNMMMMMMMMMMMMMMMMMd       MMMMMMMMN/                                           
+echo                                    :NMMMNdNMMMMMMMMMMMMMMMMMMMM:     ohMMMmsoydMM                                 
+echo                                   +NNmMMMMMMMMMMMMMMMMMMMMMMMMMN:    MMMd/   . MMMMNy-                                       
+echo                                 .yMmhmMMNmMMMMMMMMMMMMMMMMMMMMMMo    MMMy/ .    MMM                              
+echo                                `dMmhhhddhhdmNMMMMMMMMMMMMMMMMMMMm      MMs  .   hMMMM                               
+echo                                sMNhhhddhhhhhmMMMMMMMMMMMMMMMMMMMN   
+echo                               /MMmhdmMMNdhhhmMMMMMMMMMMMMMMMMMMMM:        .                        
+echo                               yMMddNMMMNdhdmMMMMMMMMMMMMMMMMMMMMM/           .                        
+echo                               -hMNMMMmdhhdNMMMNddsyMMMMMMMMMMMMMm.   .                  
+echo                                 +mNMMNmmddmNMMNy/`+MMMMMMMMMMMMMmyo`            
+echo                                  `-+ohdmmNNmmMMMNo+MMMMMMMMMMMMMMMN/       
+echo                                       `..odNMMmmy+`/hNMMMMMNNNhdmy:
+echo                                           `.:+..     :shooo.-. ``   .
+ping localhost -n 1.5 >nul
+cls
+echo.                                                                                    
+echo                                       .mMm.                       :/`                                                            
+echo                                      `hMMM:                       :dd/o/                                                         
+echo                                      `hMMN.                       `:mNMm.:s.                                                     
+echo                                       .mMM:             ``  +/` `/dNMMMMdho`                                                     
+echo                                        sMMo           -//hhomMdshMMMMMMMN-                                                       
+echo                                        -NMh`          -dNNMMMMMMMMMMMMMMMm:                                                      
+echo                                         yMm-        /+sdMMMMMMMMMMMMMMMMMMm-                                                     
+echo                                         oMM/       .yNMMMMMMMMMMMMMMMMMMMMMN+`                                                   
+echo                                         /MM/      -hMMMMMMMMMMMMMMMMMMMMMMMMMh.                                                  
+echo                                         :MM+      -+NMMMMMMdhmMMMMMMMMMMMMMMMMN:                                                 
+echo                                         hMN/     `omMMMMMMm.`/MMMMyMMMMMNNMMNNm-                                                 
+echo                                        :NMN.      .oMMMMMMd-`-MMMd`dMMMMMMMMh-`                                           
+echo                                        hMMh       /mMMMMMMMy.+MMMo hMMdNmMMMMMh+.                                       
+echo                                       :MMM:      `sdNMMMMMMM+yMMMs`dMMNNMMM  NMMMdo/`                                            
+echo                                      .dMMm.        /NMMMMMMMNhNm+    MMMdMMMMMM  MMd/`                                            
+echo                                      hMMM/  ./yod+dNyNMMMMMMMM-`  `   MMM   MNNy.                                            
+echo                                     oMMMN::yNMMMMMMMMMMMMMMMMMd         .                                   
+echo                                    :NMMMNdNMMMMMMMMMMMMMMMMMMMM:          .                     
+echo                                   +NNmMMMMMMMMMMMMMMMMMMMMMMMMMN:                                      
+echo                                 .yMmhmMMNmMMMMMMMMMMMMMMMMMMMMMMo           //.                 
+echo                                `dMmhhhddhhdmNMMMMMMMMMMMMMMMMMMMm                                 
+echo                                sMNhhhddhhhhhmMMMMMMMMMMMMMMMMMMMN   
+echo                               /MMmhdmMMNdhhhmMMMMMMMMMMMMMMMMMMMM:                                
+echo                               yMMddNMMMNdhdmMMMMMMMMMMMMMMMMMMMMM/                                   
+echo                               -hMNMMMmdhhdNMMMNddsyMMMMMMMMMMMMMm.   .                  
+echo                                 +mNMMNmmddmNMMNy/`+MMMMMMMMMMMMMmyo`            
+echo                                  `-+ohdmmNNmmMMMNo+MMMMMMMMMMMMMMMN/       
+echo                                       `..odNMMmmy+`/hNMMMMMNNNhdmy:
+echo                                           `.:+..     :shooo.-. ``   
+ping localhost -n 1.5 >nul
+cls
+echo.                                                                                    
+echo                                       .mMm.                       :/`                                                            
+echo                                      `hMMM:                       :dd/o/                                                         
+echo                                      `hMMN.                       `:mNMm.:s.                                                     
+echo                                       .mMM:             ``  +/` `/dNMMMMdho`                                                     
+echo                                        sMMo           -//hhomMdshMMMMMMMN-                                                       
+echo                                        -NMh`          -dNNMMMMMMMMMMMMMMMm:                                                      
+echo                                         yMm-        /+sdMMMMMMMMMMMMMMMMMMm-                                                     
+echo                                         oMM/       .yNMMMMMMMMMMMMMMMMMMMMMN+`                                                   
+echo                                         /MM/      -hMMMMMMMMMMMMMMMMMMMMMMMMMh.                                                  
+echo                                         :MM+      -+NMMMMMMdhmMMMMMMMMMMMMMMMMN:                                                 
+echo                                         hMN/     `omMMMMMMm.`/MMMMyMMMMMNNMMNNm-                                                 
+echo                                        :NMN.      .oMMMMMMd-`-MMMd`dMMMMMMMMh-`                                       
+echo                                        hMMh       /mMMMMMMMy.+MMMo   .\    MMMMMh+.                                    
+echo                                       :MMM:      `sdNMMMMMMM+yMMMs    .      NMMMdo/`                                            
+echo                                      .dMMm.        /NMMMMMMMNhNm+   .            MMd/`                                            
+echo                                      hMMM/  ./yod+dNyNMMMMMMMM-`  `      .                                  
+echo                                     oMMMN::yNMMMMMMMMMMMMMMMMMd      //.                       
+echo                                    :NMMMNdNMMMMMMMMMMMMMMMMMMMM:                  
+echo                                   +NNmMMMMMMMMMMMMMMMMMMMMMMMMMN:                                      
+echo                                 .yMmhmMMNmMMMMMMMMMMMMMMMMMMMMMMo                 
+echo                                `dMmhhhddhhdmNMMMMMMMMMMMMMMMMMMMm                                 
+echo                                sMNhhhddhhhhhmMMMMMMMMMMMMMMMMMMMN   
+echo                               /MMmhdmMMNdhhhmMMMMMMMMMMMMMMMMMMMM:                                
+echo                               yMMddNMMMNdhdmMMMMMMMMMMMMMMMMMMMMM/                                   
+echo                               -hMNMMMmdhhdNMMMNddsyMMMMMMMMMMMMMm.   .                  
+echo                                 +mNMMNmmddmNMMNy/`+MMMMMMMMMMMMMmyo`            
+echo                                  `-+ohdmmNNmmMMMNo+MMMMMMMMMMMMMMMN/       
+echo                                       `..odNMMmmy+`/hNMMMMMNNNhdmy:
+echo                                           `.:+..     :shooo.-. ``   .
+ping localhost -n 1.5 >nul
+cls
+echo.                                                                                    
+echo                                       .mMm.                       :/`                                                            
+echo                                      `hMMM:                       :dd/o/                                                         
+echo                                      `hMMN.                       `:mNMm.:s.                                                     
+echo                                       .mMM:             ``  +/` `/dNMMMMdho`                                                     
+echo                                        sMMo           -//hhomMdshMMMMMMMN-                                                       
+echo                                        -NMh`          -dNNMMMMMMMMMMMMMMMm:                                                      
+echo                                         yMm-        /+sdMMMMMMMMMMMMMMMMMMm-                                                     
+echo                                         oMM/       .yNMMMMMMMMMMMMMMMMMMMMMN+`                                                   
+echo                                         /MM/      -hMMMMMMMMMMMMMMMMMMMMMMMMMh.                                                  
+echo                                         :MM+      -+NMMMMMMdhmMMMMMMMMMMMMMMMMN:                                                 
+echo                                         hMN/     `omMMMMMMm.`/MMMMyMMMMMNNMMNNm-                                                 
+echo                                        :NMN.      .oMMMMMMd-`-MMMd`dMMMMMMMMh-`                                       
+echo                                        hMMh       /mMMMMMMMy.+MMMo         MMMMMh+.                                    
+echo                                       :MMM:      `sdNMMMMMMM+yMMMs            NMMMdo/`                                            
+echo                                      .dMMm.        /NMMMMMMMNhNm+                Md/`                                            
+echo                                      hMMM/  ./yod+dNyNMMMMMMMM-`  
+echo                                     oMMMN::yNMMMMMMMMMMMMMMMMMd                   
+echo                                    :NMMMNdNMMMMMMMMMMMMMMMMMMMM:                  
+echo                                   +NNmMMMMMMMMMMMMMMMMMMMMMMMMMN:                                      
+echo                                 .yMmhmMMNmMMMMMMMMMMMMMMMMMMMMMMo                 
+echo                                `dMmhhhddhhdmNMMMMMMMMMMMMMMMMMMMm                                 
+echo                                sMNhhhddhhhhhmMMMMMMMMMMMMMMMMMMMN   
+echo                               /MMmhdmMMNdhhhmMMMMMMMMMMMMMMMMMMMM:                                
+echo                               yMMddNMMMNdhdmMMMMMMMMMMMMMMMMMMMMM/                                   
+echo                               -hMNMMMmdhhdNMMMNddsyMMMMMMMMMMMMMm.   .                  
+echo                                 +mNMMNmmddmNMMNy/`+MMMMMMMMMMMMMmyo`            
+echo                                  `-+ohdmmNNmmMMMNo+MMMMMMMMMMMMMMMN/       
+echo                                       `..odNMMmmy+`/hNMMMMMNNNhdmy:
+echo                                           `.:+..     :shooo.-. ``   .
+ping localhost -n 3 >nul
+cls
+echo Animation finished.
+ping localhost -n 2 >nul
+cls
+echo Closing...
+ping localhost -n 3 >nul
+exit
+
+
+
+
+
+:Eye
+cls
+echo Fullscreen is recommended.
+echo Starting in 5 seconds...
+ping localhost -n 5 >nul
+cls
+echo.
+echo  ```.............````                                                                            ```...............``       
+echo       `---://////+osyyhhyyyys+/:-.``                                                        ``.-:/osyyyyhhyyso+/////::---`       
+echo                    ``--/osyhhddmmmddhs+:.``                                          `..:+shddmmmddhhyso/--.`                    
+echo                          `./ohhhhdhhhdmNNdhs/-`                                  `-/shmNNmmhhhdhhhhs/.`                          
+echo                             `/syhhhdmmdhyydmNNdy+-`                          `-+yhmmmdyyhdmmdhhhys/`                             
+echo                               -syyddhhhmNNdhyydmmmhs:.    `          `    .:sdNNNdyyhdmmmhhdddyys-                               
+echo                                -ymhydNNdhymNNm+hNMMMMms:./.    `     -/.:smMMMmNm/hdNmyydNNdyhds-                                
+echo                                 +hhNdyhNMNhyyd+hMMMMMMMNh-   `-y+.`   -hNMMMMMmMh/yysydNNhydNhh+                                 
+echo                                 `hmymMmyhmmsohshMMMMMMN+`  .+yNMNds-`  `+NMMMMNmhsh+omNyymMmymh`                                 
+echo                                  -mNhhNNmsyhhyNdsNMMMMd` `/dNNNNMMMh.    dMMMMNsdmyhhyymMNhhNm.                                  
+echo                                   /NMmymNNmyhoNMdyMMMMN/`:++y+//MMMMd+``:NMMMMsdMNohymMMmymMN:                                   
+echo                                    -dNNydMMN/hNMM+mMMMNNh+.`..+mMMMm./yhNMMMMmoMMNh/NMMdyNNh-                                    
+echo                                      /ymhymsddhhNomMMMMMNNms+dMMMMMhsmNNMMMMMmoNhhddsmyhms:`                                     
+echo                                        -msoNMMMNh+NMMMMMMMMNMMMMMMMMMMMMMMMMMN+yNMMMNoym-                                        
+echo                                      `/hd:mMMMMMMNMMMMMMMMMMNNMMMMMNMMMMMMMMMMNMMMMMMm-dd/`                                      
+echo                                      -hMNNMMMNNmmNMMMMMMMMMMMMNNMMMMMMMMMMMMMMmmmNNMMNNNMh-                                      
+echo                                       sMMdo/-`  .dMMdyNMMMMMMMMNNNMMMMMMMNydMMd.  `-/sdMMs                                       
+echo                                       :NN`     `dNs- `dMMMMMMMMMMMNNMMMMMd` -yMd`     `NN:                                       
+echo                                        /d/     +N:    oMmhNNMMMMMMMMNyhmMo    /N+     +d/                                        
+echo                                         `//`   yo     /:``sMMMMMMMMMh` `::     oy   `//`                                         
+echo                                                o.         sy:oNMMs:oy`         .o                                                
+echo                                                `          +/ +MMMy .s           `                                                
+echo                                                           `: -mMM: -`                                                            
+echo                                                             `.hMm-`                                                              
+echo                                                             `/yMd+.                                                              
+echo                                                              -sMh:                                                               
+echo        `                                                      oMh`                                                               
+echo                                                               .hm-.                                                              
+echo                                                               `-yh-                                                              
+echo                                                                 `+ds                                                             
+echo                                                                  `od:                                                            
+echo                                                              .:   `/h:                                                           
+echo                                                             .h/    `o+                                                           
+echo                                                             -s:     o+                                                           
+echo                                                             .//-.--/+-                                                           
+echo                                                              `./oo/.``                                                           
+echo.                                                                                                                              
+ping localhost -n 1.8 >nul
+cls
+echo.
+echo  ```.............````                                                                            ```...............``       
+echo       `---://////+osyyhhyyyys+/:-.``                                                        ``.-:/osyyyyhhyyso+/////::---`       
+echo                    ``--/osyhhddmmmddhs+:.``                                          `..:+shddmmmddhhyso/--.`                    
+echo                          `./ohhhhdhhhdmNNdhs/-`                                  `-/shmNNmmhhhdhhhhs/.`                          
+echo                             `/syhhhdmmdhyydmNNdy+-`                          `-+yhmmmdyyhdmmdhhhys/`                             
+echo                               -syyddhhhmNNdhyydmmmhs:.    `          `    .:sdNNNdyyhdmmmhhdddyys-                               
+echo                                -ymhydNNdhymNNm+hNMMMMms:./.    `     -/.:smMMMmNm/hdNmyydNNdyhds-                                
+echo                                 +hhNdyhNMNhyyd+hMMMMMMMNh-   `-y+.`   -hNMMMMMmMh/yysydNNhydNhh+                                 
+echo                                 `hmymMmyhmmsohshMMMMMMN+`  .+yNMNds-`  `+NMMMMNmhsh+omNyymMmymh`                                 
+echo                                  -mNhhNNmsyhhyNdsNMMMMd` `/dNNNN+MMh.    dMMMMNsdmyhhyymMNhhNm.                                  
+echo                                   /NMmymNNmyhoNMdyMMMMN/`:++y+//MMMMd+``:NMMMMsdMNohymMMmymMN:                                   
+echo                                    -dNNydMMN/hNMM+mMMMNNh+.`..+mMMMm./yhNMMMMmoMMNh/NMMdyNNh-                                    
+echo                                      /ymhymsddhhNomMMMMMNNms+dMMMMMhsmNNMMMMMmoNhhddsmyhms:`                                     
+echo                                        -msoNMMMNh+NMMMMMMMMNMMMMMMMMMMMMMMMMMN+yNMMMNoym-                                        
+echo                                      `/hd:mMMMMMMNMMMMMMMMMMNNMMMMMNMMMMMMMMMMNMMMMMMm-dd/`                                      
+echo                                      -hMNNMMMNNmmNMMMMMMMMMMMMNNMMMMMMMMMMMMMMmmmNNMMNNNMh-                                      
+echo                                       sMMdo/-`  .dMMdyNMMMMMMMMNNNMMMMMMMNydMMd.  `-/sdMMs                                       
+echo                                       :NN`     `dNs- `dMMMMMMMMMMMNNMMMMMd` -yMd`     `NN:                                       
+echo                                        /d/     +N:    oMmhNNMMMMMMMMNyhmMo    /N+     +d/                                        
+echo                                         `//`   yo     /:``sMMMMMMMMMh` `::     oy   `//`                                         
+echo                                                o.         sy:oNMMs:oy`         .o                                                
+echo                                                `          +/ +MMMy .s           `                                                
+echo                                                           `: -mMM: -`                                                            
+echo                                                             `.hMm-`                                                              
+echo                                                             `/yMd+.                                                              
+echo                                                              -sMh:                                                               
+echo        `                                                      oMh`                                                               
+echo                                                               .hm-.                                                              
+echo                                                               `-yh-                                                              
+echo                                                                 `+ds                                                             
+echo                                                                  `od:                                                            
+echo                                                              .:   `/h:                                                           
+echo                                                             .h/    `o+                                                           
+echo                                                             -s:     o+                                                           
+echo                                                             .//-.--/+-                                                           
+echo                                                              `./oo/.``                                                           
+echo.                                                                                                                 
+ping localhost -n 1.8 >nul
+cls
+echo.
+echo  ```.............````                                                                            ```...............``       
+echo       `---://////+osyyhhyyyys+/:-.``                                                        ``.-:/osyyyyhhyyso+/////::---`       
+echo                    ``--/osyhhddmmmddhs+:.``                                          `..:+shddmmmddhhyso/--.`                    
+echo                          `./ohhhhdhhhdmNNdhs/-`                                  `-/shmNNmmhhhdhhhhs/.`                          
+echo                             `/syhhhdmmdhyydmNNdy+-`                          `-+yhmmmdyyhdmmdhhhys/`                             
+echo                               -syyddhhhmNNdhyydmmmhs:.    `          `    .:sdNNNdyyhdmmmhhdddyys-                               
+echo                                -ymhydNNdhymNNm+hNMMMMms:./.    `     -/.:smMMMmNm/hdNmyydNNdyhds-                                
+echo                                 +hhNdyhNMNhyyd+hMMMMMMMNh-   `-y+.`   -hNMMMMMmMh/yysydNNhydNhh+                                 
+echo                                 `hmymMmyhmmsohshMMMMMMN+`  .+yNM!ds-`  `+NMMMMNmhsh+omNyymMmymh`                                 
+echo                                  -mNhhNNmsyhhyNdsNMMMMd` `/dNNN-+-Mh.    dMMMMNsdmyhhyymMNhhNm.                                  
+echo                                   /NMmymNNmyhoNMdyMMMMN/`:++y+//!MMMd+``:NMMMMsdMNohymMMmymMN:                                   
+echo                                    -dNNydMMN/hNMM+mMMMNNh+.`..+mMMMm./yhNMMMMmoMMNh/NMMdyNNh-                                    
+echo                                      /ymhymsddhhNomMMMMMNNms+dMMMMMhsmNNMMMMMmoNhhddsmyhms:`                                     
+echo                                        -msoNMMMNh+NMMMMMMMMNMMMMMMMMMMMMMMMMMN+yNMMMNoym-                                        
+echo                                      `/hd:mMMMMMMNMMMMMMMMMMNNMMMMMNMMMMMMMMMMNMMMMMMm-dd/`                                      
+echo                                      -hMNNMMMNNmmNMMMMMMMMMMMMNNMMMMMMMMMMMMMMmmmNNMMNNNMh-                                      
+echo                                       sMMdo/-`  .dMMdyNMMMMMMMMNNNMMMMMMMNydMMd.  `-/sdMMs                                       
+echo                                       :NN`     `dNs- `dMMMMMMMMMMMNNMMMMMd` -yMd`     `NN:                                       
+echo                                        /d/     +N:    oMmhNNMMMMMMMMNyhmMo    /N+     +d/                                        
+echo                                         `//`   yo     /:``sMMMMMMMMMh` `::     oy   `//`                                         
+echo                                                o.         sy:oNMMs:oy`         .o                                                
+echo                                                `          +/ +MMMy .s           `                                                
+echo                                                           `: -mMM: -`                                                            
+echo                                                             `.hMm-`                                                              
+echo                                                             `/yMd+.                                                              
+echo                                                              -sMh:                                                               
+echo        `                                                      oMh`                                                               
+echo                                                               .hm-.                                                              
+echo                                                               `-yh-                                                              
+echo                                                                 `+ds                                                             
+echo                                                                  `od:                                                            
+echo                                                              .:   `/h:                                                           
+echo                                                             .h/    `o+                                                           
+echo                                                             -s:     o+                                                           
+echo                                                             .//-.--/+-                                                           
+echo                                                              `./oo/.``             
+echo.                                                                                    
+ping localhost -n 1.8 >nul
+cls
+echo.
+echo  ```.............````                                                                            ```...............``       
+echo       `---://////+osyyhhyyyys+/:-.``                                                        ``.-:/osyyyyhhyyso+/////::---`       
+echo                    ``--/osyhhddmmmddhs+:.``                                          `..:+shddmmmddhhyso/--.`                    
+echo                          `./ohhhhdhhhdmNNdhs/-`                                  `-/shmNNmmhhhdhhhhs/.`                          
+echo                             `/syhhhdmmdhyydmNNdy+-`                          `-+yhmmmdyyhdmmdhhhys/`                             
+echo                               -syyddhhhmNNdhyydmmmhs:.    `          `    .:sdNNNdyyhdmmmhhdddyys-                               
+echo                                -ymhydNNdhymNNm+hNMMMMms:./.    `     -/.:smMMMmNm/hdNmyydNNdyhds-                                
+echo                                 +hhNdyhNMNhyyd+hMMMMMMMNh-   `-y!.`   -hNMMMMMmMh/yysydNNhydNhh+                                 
+echo                                 `hmymMmyhmmsohshMMMMMMN+`  .+yNM!ds-`  `+NMMMMNmhsh+omNyymMmymh`                                 
+echo                                  -mNhhNNmsyhhyNdsNMMMMd` `/dNN--+--h.    dMMMMNsdmyhhyymMNhhNm.                                  
+echo                                   /NMmymNNmyhoNMdyMMMMN/`:++y+//!MMMd+``:NMMMMsdMNohymMMmymMN:                                   
+echo                                    -dNNydMMN/hNMM+mMMMNNh+.`..+m!MMm./yhNMMMMmoMMNh/NMMdyNNh-                                    
+echo                                      /ymhymsddhhNomMMMMMNNms+dMMMMMhsmNNMMMMMmoNhhddsmyhms:`                                     
+echo                                        -msoNMMMNh+NMMMMMMMMNMMMMMMMMMMMMMMMMMN+yNMMMNoym-                                        
+echo                                      `/hd:mMMMMMMNMMMMMMMMMMNNMMMMMNMMMMMMMMMMNMMMMMMm-dd/`                                      
+echo                                      -hMNNMMMNNmmNMMMMMMMMMMMMNNMMMMMMMMMMMMMMmmmNNMMNNNMh-                                      
+echo                                       sMMdo/-`  .dMMdyNMMMMMMMMNNNMMMMMMMNydMMd.  `-/sdMMs                                       
+echo                                       :NN`     `dNs- `dMMMMMMMMMMMNNMMMMMd` -yMd`     `NN:                                       
+echo                                        /d/     +N:    oMmhNNMMMMMMMMNyhmMo    /N+     +d/                                        
+echo                                         `//`   yo     /:``sMMMMMMMMMh` `::     oy   `//`                                         
+echo                                                o.         sy:oNMMs:oy`         .o                                                
+echo                                                `          +/ +MMMy .s           `                                                
+echo                                                           `: -mMM: -`                                                            
+echo                                                             `.hMm-`                                                              
+echo                                                             `/yMd+.                                                              
+echo                                                              -sMh:                                                               
+echo        `                                                      oMh`                                                               
+echo                                                               .hm-.                                                              
+echo                                                               `-yh-                                                              
+echo                                                                 `+ds                                                             
+echo                                                                  `od:                                                            
+echo                                                              .:   `/h:                                                           
+echo                                                             .h/    `o+                                                           
+echo                                                             -s:     o+                                                           
+echo                                                             .//-.--/+-                                                           
+echo                                                              `./oo/.``             
+echo.                            
+ping localhost -n 1.8 >nul
+cls
+echo.
+echo  ```.............````                                                                            ```...............``       
+echo       `---://////+osyyhhyyyys+/:-.``                                                        ``.-:/osyyyyhhyyso+/////::---`       
+echo                    ``--/osyhhddmmmddhs+:.``                                          `..:+shddmmmddhhyso/--.`                    
+echo                          `./ohhhhdhhhdmNNdhs/-`                                  `-/shmNNmmhhhdhhhhs/.`                          
+echo                             `/syhhhdmmdhyydmNNdy+-`                          `-+yhmmmdyyhdmmdhhhys/`                             
+echo                               -syyddhhhmNNdhyydmmmhs:.    `          `    .:sdNNNdyyhdmmmhhdddyys-                               
+echo                                -ymhydNNdhymNNm+hNMMMMms:./.    `     -/.:smMMMmNm/hdNmyydNNdyhds-                                
+echo                                 +hhNdyhNMNhyyd+hMMMMMMMNh-   `-y+.`   -hNMMMMMmMh/yysydNNhydNhh+                                 
+echo                                 `hmymMmyhmmsohshMMMMMMN+`  .+yNM!ds-`  `+NMMMMNmhsh+omNyymMmymh`                                 
+echo                                  -mNhhNNmsyhhyNdsNMMMMd` `/dNNN-+-Mh.    dMMMMNsdmyhhyymMNhhNm.                                  
+echo                                   /NMmymNNmyhoNMdyMMMMN/`:++y+//!MMMd+``:NMMMMsdMNohymMMmymMN:                                   
+echo                                    -dNNydMMN/hNMM+mMMMNNh+.`..+mMMMm./yhNMMMMmoMMNh/NMMdyNNh-                                    
+echo                                      /ymhymsddhhNomMMMMMNNms+dMMMMMhsmNNMMMMMmoNhhddsmyhms:`                                     
+echo                                        -msoNMMMNh+NMMMMMMMMNMMMMMMMMMMMMMMMMMN+yNMMMNoym-                                        
+echo                                      `/hd:mMMMMMMNMMMMMMMMMMNNMMMMMNMMMMMMMMMMNMMMMMMm-dd/`                                      
+echo                                      -hMNNMMMNNmmNMMMMMMMMMMMMNNMMMMMMMMMMMMMMmmmNNMMNNNMh-                                      
+echo                                       sMMdo/-`  .dMMdyNMMMMMMMMNNNMMMMMMMNydMMd.  `-/sdMMs                                       
+echo                                       :NN`     `dNs- `dMMMMMMMMMMMNNMMMMMd` -yMd`     `NN:                                       
+echo                                        /d/     +N:    oMmhNNMMMMMMMMNyhmMo    /N+     +d/                                        
+echo                                         `//`   yo     /:``sMMMMMMMMMh` `::     oy   `//`                                         
+echo                                                o.         sy:oNMMs:oy`         .o                                                
+echo                                                `          +/ +MMMy .s           `                                                
+echo                                                           `: -mMM: -`                                                            
+echo                                                             `.hMm-`                                                              
+echo                                                             `/yMd+.                                                              
+echo                                                              -sMh:                                                               
+echo        `                                                      oMh`                                                               
+echo                                                               .hm-.                                                              
+echo                                                               `-yh-                                                              
+echo                                                                 `+ds                                                             
+echo                                                                  `od:                                                            
+echo                                                              .:   `/h:                                                           
+echo                                                             .h/    `o+                                                           
+echo                                                             -s:     o+                                                           
+echo                                                             .//-.--/+-                                                           
+echo                                                              `./oo/.``             
+echo.                                                                              
+ping localhost -n 1.8 >nul
+cls
+echo.
+echo  ```.............````                                                                            ```...............``       
+echo       `---://////+osyyhhyyyys+/:-.``                                                        ``.-:/osyyyyhhyyso+/////::---`       
+echo                    ``--/osyhhddmmmddhs+:.``                                          `..:+shddmmmddhhyso/--.`                    
+echo                          `./ohhhhdhhhdmNNdhs/-`                                  `-/shmNNmmhhhdhhhhs/.`                          
+echo                             `/syhhhdmmdhyydmNNdy+-`                          `-+yhmmmdyyhdmmdhhhys/`                             
+echo                               -syyddhhhmNNdhyydmmmhs:.    `          `    .:sdNNNdyyhdmmmhhdddyys-                               
+echo                                -ymhydNNdhymNNm+hNMMMMms:./.    `     -/.:smMMMmNm/hdNmyydNNdyhds-                                
+echo                                 +hhNdyhNMNhyyd+hMMMMMMMNh-   `-y+.`   -hNMMMMMmMh/yysydNNhydNhh+                                 
+echo                                 `hmymMmyhmmsohshMMMMMMN+`  .+yNMNds-`  `+NMMMMNmhsh+omNyymMmymh`                                 
+echo                                  -mNhhNNmsyhhyNdsNMMMMd` `/dNNNN+MMh.    dMMMMNsdmyhhyymMNhhNm.                                  
+echo                                   /NMmymNNmyhoNMdyMMMMN/`:++y+//MMMMd+``:NMMMMsdMNohymMMmymMN:                                   
+echo                                    -dNNydMMN/hNMM+mMMMNNh+.`..+mMMMm./yhNMMMMmoMMNh/NMMdyNNh-                                    
+echo                                      /ymhymsddhhNomMMMMMNNms+dMMMMMhsmNNMMMMMmoNhhddsmyhms:`                                     
+echo                                        -msoNMMMNh+NMMMMMMMMNMMMMMMMMMMMMMMMMMN+yNMMMNoym-                                        
+echo                                      `/hd:mMMMMMMNMMMMMMMMMMNNMMMMMNMMMMMMMMMMNMMMMMMm-dd/`                                      
+echo                                      -hMNNMMMNNmmNMMMMMMMMMMMMNNMMMMMMMMMMMMMMmmmNNMMNNNMh-                                      
+echo                                       sMMdo/-`  .dMMdyNMMMMMMMMNNNMMMMMMMNydMMd.  `-/sdMMs                                       
+echo                                       :NN`     `dNs- `dMMMMMMMMMMMNNMMMMMd` -yMd`     `NN:                                       
+echo                                        /d/     +N:    oMmhNNMMMMMMMMNyhmMo    /N+     +d/                                        
+echo                                         `//`   yo     /:``sMMMMMMMMMh` `::     oy   `//`                                         
+echo                                                o.         sy:oNMMs:oy`         .o                                                
+echo                                                `          +/ +MMMy .s           `                                                
+echo                                                           `: -mMM: -`                                                            
+echo                                                             `.hMm-`                                                              
+echo                                                             `/yMd+.                                                              
+echo                                                              -sMh:                                                               
+echo        `                                                      oMh`                                                               
+echo                                                               .hm-.                                                              
+echo                                                               `-yh-                                                              
+echo                                                                 `+ds                                                             
+echo                                                                  `od:                                                            
+echo                                                              .:   `/h:                                                           
+echo                                                             .h/    `o+                                                           
+echo                                                             -s:     o+                                                           
+echo                                                             .//-.--/+-                                                           
+echo                                                              `./oo/.``                                                           
+echo.
+ping localhost -n 1.8 >nul           
+cls                                                                                                      
+echo.
+echo  ```.............````                                                                            ```...............``       
+echo       `---://////+osyyhhyyyys+/:-.``                                                        ``.-:/osyyyyhhyyso+/////::---`       
+echo                    ``--/osyhhddmmmddhs+:.``                                          `..:+shddmmmddhhyso/--.`                    
+echo                          `./ohhhhdhhhdmNNdhs/-`                                  `-/shmNNmmhhhdhhhhs/.`                          
+echo                             `/syhhhdmmdhyydmNNdy+-`                          `-+yhmmmdyyhdmmdhhhys/`                             
+echo                               -syyddhhhmNNdhyydmmmhs:.    `          `    .:sdNNNdyyhdmmmhhdddyys-                               
+echo                                -ymhydNNdhymNNm+hNMMMMms:./.    `     -/.:smMMMmNm/hdNmyydNNdyhds-                                
+echo                                 +hhNdyhNMNhyyd+hMMMMMMMNh-   `-y+.`   -hNMMMMMmMh/yysydNNhydNhh+                                 
+echo                                 `hmymMmyhmmsohshMMMMMMN+`  .+yNMNds-`  `+NMMMMNmhsh+omNyymMmymh`                                 
+echo                                  -mNhhNNmsyhhyNdsNMMMMd` `/dNNNNMMMh.    dMMMMNsdmyhhyymMNhhNm.                                  
+echo                                   /NMmymNNmyhoNMdyMMMMN/`:++y+//MMMMd+``:NMMMMsdMNohymMMmymMN:                                   
+echo                                    -dNNydMMN/hNMM+mMMMNNh+.`..+mMMMm./yhNMMMMmoMMNh/NMMdyNNh-                                    
+echo                                      /ymhymsddhhNomMMMMMNNms+dMMMMMhsmNNMMMMMmoNhhddsmyhms:`                                     
+echo                                        -msoNMMMNh+NMMMMMMMMNMMMMMMMMMMMMMMMMMN+yNMMMNoym-                                        
+echo                                      `/hd:mMMMMMMNMMMMMMMMMMNNMMMMMNMMMMMMMMMMNMMMMMMm-dd/`                                      
+echo                                      -hMNNMMMNNmmNMMMMMMMMMMMMNNMMMMMMMMMMMMMMmmmNNMMNNNMh-                                      
+echo                                       sMMdo/-`  .dMMdyNMMMMMMMMNNNMMMMMMMNydMMd.  `-/sdMMs                                       
+echo                                       :NN`     `dNs- `dMMMMMMMMMMMNNMMMMMd` -yMd`     `NN:                                       
+echo                                        /d/     +N:    oMmhNNMMMMMMMMNyhmMo    /N+     +d/                                        
+echo                                         `//`   yo     /:``sMMMMMMMMMh` `::     oy   `//`                                         
+echo                                                o.         sy:oNMMs:oy`         .o                                                
+echo                                                `          +/ +MMMy .s           `                                                
+echo                                                           `: -mMM: -`                                                            
+echo                                                             `.hMm-`                                                              
+echo                                                             `/yMd+.                                                              
+echo                                                              -sMh:                                                               
+echo        `                                                      oMh`                                                               
+echo                                                               .hm-.                                                              
+echo                                                               `-yh-                                                              
+echo                                                                 `+ds                                                             
+echo                                                                  `od:                                                            
+echo                                                              .:   `/h:                                                           
+echo                                                             .h/    `o+                                                           
+echo                                                             -s:     o+                                                           
+echo                                                             .//-.--/+-                                                           
+echo                                                              `./oo/.``                                                           
+echo.                                                                      
+ping localhost -n 3 >nul
+cls
+echo Animation done.
+echo Closing...
+ping localhost -n 3 >nul
