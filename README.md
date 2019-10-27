@@ -38,7 +38,14 @@ includes lock with skull (That fades away)
 Another removal, which i renamed dismantle.
 
 
+Disclaimer for dummies: Not an actual virus, or cypto currency ransomware, just a representation.
 
-I FINALLY UPDATED Animation V1.0 Now its V 1.1
 
-Update includes: 1 new character.
+
+New update!
+Crypt0 Lock3r has now become a official project, therefore i updated it, and now whenever you put the wrong key, a skull appears
+
+Which is animated and says "You've been Crypt0 Lock3d"
+
+Also it's eyes glow at the end
+Enjoy!
