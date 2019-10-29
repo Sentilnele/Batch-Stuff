@@ -28,7 +28,7 @@ Whitelist system.
 
 Characters:
 Stickman: wave and say something.
-Dragon: Spit dem flames, and blink its eye at you
+Dragon: Spits flames, and blinks its eye at you
 
 4- Crypt0 l0ck3r | A more animated version of J.O.H.N
 
