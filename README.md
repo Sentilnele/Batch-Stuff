@@ -32,7 +32,7 @@ Dragon: Spits flames, and blinks its eye at you
 
 4- Crypt0 l0ck3r | A more animated version of J.O.H.N
 
-includes lock with skull (That fades away)
+includes lock with skull (That fades away because i wanna be cool)
 
 Another removal, which i renamed dismantle.
 
